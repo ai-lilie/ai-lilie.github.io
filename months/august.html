@@ -36,7 +36,8 @@
     <p>Click on the x button in the top right corner to close the current tab:</p>
 
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, '1999')" id="defaultOpen">1999</button>
+        <button class="tablinks" onclick="openCity(event, '1999')">1999</button>
+        <button class="tablinks" onclick="openCity(event, '2019')" id="defaultOpen">2019</button>
     </div>
 
     <div id="1999" class="tabcontent">
@@ -44,10 +45,16 @@
         <h3>2 August</h3>
         <p>Hey Look, it's my birthday </p>
     </div>
+    <div id="2019" class="tabcontent">
+        <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+        <h3>31 August</h3>
+        <p>The first time we met, who would have knew  &#9829;</p>
+    </div>
+    
     <br>
     <br>
     <div class="footer">
-        <h2>© Lilie</h2>
+        <h3>© Lilie 2019</h3>
     </div>
 
     <script src="../script.js"></script>
